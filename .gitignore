@@ -1,3 +1,4 @@
 models/*
 model_lists/*
 build/*
+build_release

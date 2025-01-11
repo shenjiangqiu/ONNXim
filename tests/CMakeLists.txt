@@ -39,10 +39,12 @@ add_executable(${BINARY} ${TEST_SOURCES})
 
 target_include_directories(Simulator_test PUBLIC ${ONNX_INCLUDE_DIRS})
 target_include_directories(Simulator_test PUBLIC ${PROJECT_SOURCE_DIR}/src)
+
+# find_package(Boost REQUIRED COMPONENTS program_options)
 target_link_libraries(Simulator_test Simulator_lib)
 # target_link_libraries(Simulator_test ramulator booksim2)
 # target_link_libraries(Simulator_test nlohmann_json::nlohmann_json ${PROTOBUF_LIB} onnx_proto ${CONAN_LIBS} stdc++fs spdlog::spdlog)
-target_link_libraries(Simulator_test GTest::GTest GTest::GMock)
+target_link_libraries(Simulator_test GTest::GTest GTest::GMock Boost::program_options)
 
 # gtest_discover_tests(
 #   Simulator_test

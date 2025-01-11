@@ -9,10 +9,12 @@
 	url = https://github.com/Accelergy-Project/pytorch2timeloop-converter.git
 [submodule "extern/booksim"]
 	path = extern/booksim
-	url = https://github.com/PSAL-POSTECH/booksim.git
+	url = https://github.com/shenjiangqiu/booksim.git
+	branch = sjq
 [submodule "extern/ramulator2"]
 	path = extern/ramulator2
-	url = https://github.com/PSAL-POSTECH/ramulator2.git
+	url = https://github.com/shenjiangqiu/ramulator2.git
+	branch = sjq
 
 [submodule "extern/robin-hood-hashing"]
 	path = extern/robin-hood-hashing

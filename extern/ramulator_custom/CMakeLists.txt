@@ -8,4 +8,5 @@ target_include_directories(ramulator1
   PRIVATE include/ramulator
   PRIVATE src
 )
+target_link_libraries(ramulator1 PUBLIC robin_hood::robin_hood)
 target_compile_options(ramulator1 PRIVATE -Wall -O3)

@@ -13,3 +13,16 @@
 [submodule "extern/ramulator2"]
 	path = extern/ramulator2
 	url = https://github.com/PSAL-POSTECH/ramulator2.git
+
+[submodule "extern/robin-hood-hashing"]
+	path = extern/robin-hood-hashing
+	url = https://github.com/martinus/robin-hood-hashing.git
+[submodule "extern/spdlog"]
+	path = extern/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "extern/json"]
+	path = extern/json
+	url = https://github.com/nlohmann/json.git
+[submodule "extern/fmt"]
+	path = extern/fmt
+	url = https://github.com/fmtlib/fmt.git
